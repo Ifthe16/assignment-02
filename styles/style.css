@@ -63,6 +63,11 @@ th, td{
 .input-1, .input-2, .input-3{
   margin-bottom: 12px;
 }
+.position{
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+}
 /*header styles*/
 .bg-light-black {
   background-image: linear-gradient(to bottom, #000000, #191919, #2b2b2b, #3e3e3e, #525252, #525252, #525252, #525252, #3e3e3e, #2b2b2b, #191919, #000000);
@@ -312,6 +317,9 @@ object-position: 67% 30%;
 }
 
 /* BMI calculator section related styles */
+.bmi-container{
+  margin-bottom: 100px;
+}
 .bmi-content{
   max-width: 671px;
   margin: 0 auto 88px;
@@ -397,6 +405,54 @@ margin-bottom: 12px;
 form > .btn-primary{
   padding: 16px 70.5px;
 }
+/* team section related styles */
+.team-content{
+  max-width: 671px;
+  text-align: center;
+  margin: 0 auto 58px;
+}
+.team-title{
+font-weight: 900;
+font-size: 3rem;
+margin-bottom: 14px;
+}
+.team-description{
+  font-size: 0.875rem;
+}
+.team-trainer-container{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+  padding: 20px;
+}
+.team-card{
+  position: relative;
+}
+.trainer-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+.trainer-4-image{
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.trainer-6-image{
+  object-fit: cover;
+  object-position: 30% 0;
+}
+.trainer-name{
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+.trainer-profession{
+  font-size: 0.875rem;
+}
+
 /* responsive media query */
 
 /* mobile specific media query */
@@ -467,7 +523,8 @@ form > .btn-primary{
     padding: 0 10px;
   }
 
-  .habits-card-container {
+  .habits-card-container,
+  .team-trainer-container {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     margin: 0 20px;
@@ -529,4 +586,10 @@ form > .btn-primary{
   padding: 13px 155px 13px 20px;
 }
 
+.trainer-image-display{
+  display: none;
+}
+.image-position-5{
+  grid-row: 2;
+}
 }
