@@ -7,6 +7,7 @@
     <!-- this is title -->
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
 </head>
 <!-- this is body part -->
 
@@ -37,9 +38,11 @@
                     nutrition tips to help you achieve your goals, whether you're a beginner or an experienced athlete.
                     Join us to start your journey towards a healthier, stronger you!</p>
                 <div class="banner-content-btn-container">
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><button class="btn-primary text-primary">Join <span class="btn-primary-title">Club</span>
-                        Now!</button></a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><button class="btn-secondary text-primary">Download App</button></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><button
+                            class="btn-primary text-primary">Join <span class="btn-primary-title">Club</span>
+                            Now!</button></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><button
+                            class="btn-secondary text-primary">Download App</button></a>
                 </div>
             </div>
             <div class="banner-image-content">
@@ -113,10 +116,66 @@
                 <img src="images/run.jpg" alt="" class="run-image-content">
             </div>
         </section>
+        <section class="success-container">
+            <div class="success-content">
+                <h2 class="text-primary success-content-title">Success Stories</h2>
+                <p class="text-secondary success-content-description">Be inspired by our member's amazing
+                    transformations and achievements. Their real-life stories showcase the power of dedication and our
+                    programs. Ready to start your own journey? Share your success with us!</p>
+            </div>
+            <div class="success-card-container display-flex">
+                <div class="member-card-1">
+                    <div class="member-card-image success-card-position-1">
+                        <img src="images/member 1.jpg" alt="picture of James Thompson" class="success-card-image">
+                        <h4 class="text-primary member-name">James Thompson</h4>
+                    </div>
+                    <div class="member-card success-card-position-2">
+                        <p class="text-secondary member-story">James Thompson struggled with obesity and low energy due
+                            to a sedentary lifestyle. At 45, he joined our fitness club to improve his health. Through
+                            our Weight Loss and Endurance program, which included cardio and strength training, James
+                            lost 50 pounds and completed his first marathon within a year. He feels stronger and more
+                            energized than ever, thanks to the club’s support. “Running a marathon seemed impossible,
+                            but with the club’s support, I achieved it and feel stronger than ever,” James says.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="member-card-2">
+                    <div class="member-card-image success-card-position-3">
+                        <img src="images/member 2.jpg" alt="picture of Jessica Martinez" class="success-card-image">
+                        <h4 class="text-primary member-name">Jessica Martinez</h4>
+                    </div>
+                    <div class="member-card success-card-position-4">
+    
+                        <p class="text-secondary member-story">Jessica Martinez faced postpartum weight gain and a busy
+                            schedule as a teacher and mother. She joined our Postpartum Fitness program, which offered
+                            flexible classes and one-on-one sessions. Jessica lost 20 pounds, increased her energy and
+                            regained confidence. “The flexible program fit perfectly into my busy life and helped me feel
+                            great again. I’m thankful for the community and support,” Jessica reflects.</p>
+                    </div>
+                </div>
+
+                <div class="member-card-3">
+                    <div class="member-card-image success-card-position-5">
+                        <img src="images/member 3.jpg" alt="picture of Mark Davis" class="success-card-image">
+                        <h4 class="text-primary member-name">Mark Davis</h4>
+                    </div>
+                    <div class="member-card success-card-position-6">
+                        <p class="text-secondary member-story">Mark Davis, a 38-year-old construction foreman, injured his
+                            shoulder and needed rehabilitation. He enrolled in our Injury Rehabilitation program, which
+                            focused on restoring his shoulder’s strength and mobility. With consistent effort and
+                            personalized guidance, Mark fully recovered and returned to his active lifestyle, even taking up
+                            weightlifting. “The tailored rehab program helped me recover and return to strength. I’m now
+                            back to full strength and enjoying new fitness challenges,” Mark shares.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="bmi-container">
             <div class="bmi-content">
                 <h2 class="text-primary bmi-content-title">BMI Calculator</h2>
-                <p class="text-secondary bmi-content-decription">Easily calculate your Body Mass Index (BMI) to get a
+                <p class="text-secondary bmi-content-description">Easily calculate your Body Mass Index (BMI) to get a
                     quick estimate of your weight category. Simply enter your height and weight to see if you are
                     underweight, normal weight, overweight, or obese. Use this tool to monitor your progress and guide
                     your fitness goals. Remember, BMI is just one measure of health-consult with a professional for a
@@ -155,12 +214,13 @@
                 <div class="bmi-calculator">
                     <form action="">
                         <h3 class="form-title text-primary">Calculate your BMI</h3>
-                        <p class="form-description text-secondary">Quickly find out your body mass index (BMI) by entering your weight and height. This easy
+                        <p class="form-description text-secondary">Quickly find out your body mass index (BMI) by
+                            entering your weight and height. This easy
                             tool helps you assess your weight category and start your path to a healthier lifestyle. For
                             a full health evaluation, consult a healthcare professional.</p>
-                        <input type="number" placeholder="Height/cm" class="text-quaternary input-1">
-                        <input type="number" placeholder="Weight/kg" class="text-quaternary input-2">
-                        <input type="number" placeholder="Age" class="text-quaternary input-3">
+                        <input type="text" placeholder="Height/cm" class="text-quaternary input-1">
+                        <input type="text" placeholder="Weight/kg" class="text-quaternary input-2">
+                        <input type="text" placeholder="Age" class="text-quaternary input-3">
                         <select name="" id="" class="form-select-options-1">
                             <option value="" disabled selected hidden>Sex</option>
                             <option value="">Male</option>
@@ -183,50 +243,51 @@
         <section class="team-container">
             <div class="team-content">
                 <h2 class="team-title text-primary">Meet Our Team</h2>
-                <p class="team-description text-secondary">Meet our passionate team of fitness experts, each dedicated to helping you achieve your wellness goals through their unique skills and experience.</p>
+                <p class="team-description text-secondary">Meet our passionate team of fitness experts, each dedicated
+                    to helping you achieve your wellness goals through their unique skills and experience.</p>
             </div>
             <div class="team-trainer-container">
                 <div class="team-card trainer-image-display">
                     <img src="images/trainer1.png" alt="" class="trainer-image trainer-6-image">
                     <div class="position">
                         <h4 class="trainer-name text-primary">Jerome Bell</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
+                        <p class="trainer-profession text-secondary">Trainer</p>
                     </div>
                 </div>
                 <div class="team-card">
                     <img src="images/trainer2.png" alt="" class="trainer-image trainer-6-image">
                     <div class="position">
                         <h4 class="trainer-name text-primary">Cameron Williamson</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
+                        <p class="trainer-profession text-secondary">Trainer</p>
                     </div>
                 </div>
                 <div class="team-card">
                     <img src="images/trainer3.png" alt="" class="trainer-image">
                     <div class="position">
                         <h4 class="trainer-name text-primary">Darrell Steward</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
+                        <p class="trainer-profession text-secondary">Trainer</p>
                     </div>
                 </div>
                 <div class="team-card trainer-image-display">
                     <img src="images/trainer4.png" alt="" class="trainer-image trainer-4-image">
                     <div class="position">
                         <h4 class="trainer-name text-primary">Dianne Russell</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
+                        <p class="trainer-profession text-secondary">Trainer</p>
                     </div>
                 </div>
                 <div class="team-card image-position-5">
                     <img src="images/trainer5.png" alt="" class="trainer-image">
-                   <div class="position">
-                    <h4 class="trainer-name text-primary">Cody Fisher</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
-                   </div>
+                    <div class="position">
+                        <h4 class="trainer-name text-primary">Cody Fisher</h4>
+                        <p class="trainer-profession text-secondary">Trainer</p>
+                    </div>
                 </div>
                 <div class="team-card">
                     <img src="images/trainer6.png" alt="" class="trainer-image trainer-6-image">
-                   <div class="position">
-                    <h4 class="trainer-name text-primary">Theresa Webb</h4>
-                    <p class="trainer-profession text-secondary">Trainer</p>
-                   </div>
+                    <div class="position">
+                        <h4 class="trainer-name text-primary">Theresa Webb</h4>
+                        <p class="trainer-profession text-secondary">Trainer</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -237,7 +298,9 @@
             <div class="footer-index-container display-flex">
                 <div class="footer-content-1">
                     <h2 class="text-tertiary footer-brand"><em>Fitness</em></h2>
-                    <p class="footer-description text-secondary">Committed to your fitness journey, we deliver expert training, personalized guidance, and motivation to help you reach your wellness goals. Explore our resources and join a community dedicated to a healthier and more active lifestyle.</p>
+                    <p class="footer-description text-secondary">Committed to your fitness journey, we deliver expert
+                        training, personalized guidance, and motivation to help you reach your wellness goals. Explore
+                        our resources and join a community dedicated to a healthier and more active lifestyle.</p>
                 </div>
                 <div class="footer-content-2">
                     <h3 class="text-primary footer-content-title">Get Started</h3>

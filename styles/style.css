@@ -316,6 +316,59 @@ margin-bottom: 34px;
 object-position: 67% 30%;
 }
 
+/* success stories section related styles */
+.success-container{
+  margin-bottom: 100px;
+}
+.success-content{
+  max-width: 671px;
+  text-align: center;
+  margin: 0 auto 58px;
+}
+.success-content-title{
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 14px;
+}
+.success-content-description{
+  font-size: 0.875rem;
+}
+.success-card-container{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: repeat(3, 3fr); */
+  gap: 20px;
+}
+.member-card-image{
+  position: relative;
+  max-width: 321px;
+}
+.member-name{
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+.member-card{
+  max-width: 321px;
+  margin-top: 5px;
+}
+
+.member-story{
+  font-size: 0.875rem;
+}
+.success-card-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
 /* BMI calculator section related styles */
 .bmi-container{
   margin-bottom: 100px;
@@ -329,7 +382,7 @@ object-position: 67% 30%;
   font-weight: 900;
   margin-bottom: 14px;
 }
-.bmi-content-decription{
+.bmi-content-description{
   font-size: 0.875rem;
 }
 .bmi-calculator-container{
@@ -510,6 +563,7 @@ small{
   .banner,
   .habits-content-container,
   .run-container,
+  .success-card-container,
   .bmi-calculator-container,
   .footer-index-container {
     flex-direction: column;
@@ -574,7 +628,7 @@ small{
   }
 
   .habits-card-container,
-  .team-trainer-container {
+  .team-trainer-container{
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     margin: 0 20px;
@@ -652,5 +706,11 @@ small{
 hr{
   margin: 0 20px;
 }
-
+.success-content{
+  text-align: center;
+  margin: 0 20px 58px;
+}
+.success-card-container{
+  align-items: center;
+}
 }
