@@ -453,6 +453,55 @@ margin-bottom: 14px;
   font-size: 0.875rem;
 }
 
+/* footer styles */
+footer{
+  background-color: #000000;
+  padding-top: 88px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer-container{
+background-color: #252525;
+}
+.footer-index-container{
+  justify-content: space-between;
+  padding: 66px 150px 0;
+gap: 100px;
+margin-bottom: 79px;
+}
+.footer-content-1{
+  max-width: 443px;
+}
+.footer-brand{
+  font-size: 4.375rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-description{
+  font-size: 0.875rem;
+}
+.footer-content-title{
+  margin-bottom: 39px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.footer-content-description{
+  font-size: 1.4375rem;
+  margin-bottom: 20px;
+}
+
+hr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 190px;
+}
+small{
+  font-size: 1.25rem;
+}
+.copyright-content{
+  text-align: center;
+  margin-top: 38px;
+  padding: 0 0 20px;
+}
 /* responsive media query */
 
 /* mobile specific media query */
@@ -461,7 +510,8 @@ margin-bottom: 14px;
   .banner,
   .habits-content-container,
   .run-container,
-  .bmi-calculator-container {
+  .bmi-calculator-container,
+  .footer-index-container {
     flex-direction: column;
   }
 
@@ -592,4 +642,15 @@ margin-bottom: 14px;
 .image-position-5{
   grid-row: 2;
 }
+
+.footer-container{
+  padding: 20px;
+}
+.footer-index-container{
+  padding: 66px 20px 0;
+}
+hr{
+  margin: 0 20px;
+}
+
 }
