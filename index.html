@@ -113,6 +113,73 @@
                 <img src="images/run.jpg" alt="" class="run-image-content">
             </div>
         </section>
+        <section class="bmi-container">
+            <div class="bmi-content">
+                <h2 class="text-primary bmi-content-title">BMI Calculator</h2>
+                <p class="text-secondary bmi-content-decription">Easily calculate your Body Mass Index (BMI) to get a
+                    quick estimate of your weight category. Simply enter your height and weight to see if you are
+                    underweight, normal weight, overweight, or obese. Use this tool to monitor your progress and guide
+                    your fitness goals. Remember, BMI is just one measure of health-consult with a professional for a
+                    complete assessment.</p>
+            </div>
+            <div class="bmi-calculator-container display-flex">
+                <div class="bmi-chart">
+                    <h3 class="bmi-chart-title text-primary">BMI Calculator Chart</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="text-primary">BMI</th>
+                                <th class="text-primary">Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-secondary">Below 18.5</td>
+                                <td class="text-secondary">Underweight</td>
+                            </tr>
+                            <tr>
+                                <td class="text-secondary">18.5 - 24.9</td>
+                                <td class="text-secondary">Healthy</td>
+                            </tr>
+                            <tr>
+                                <td class="text-secondary">25.0 - 29.9</td>
+                                <td class="text-secondary">Overweight</td>
+                            </tr>
+                            <tr>
+                                <td class="text-secondary">30.0 - and Above</td>
+                                <td class="text-secondary">Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bmi-calculator">
+                    <form action="">
+                        <h3 class="form-title text-primary">Calculate your BMI</h3>
+                        <p class="form-description text-secondary">Quickly find out your body mass index (BMI) by entering your weight and height. This easy
+                            tool helps you assess your weight category and start your path to a healthier lifestyle. For
+                            a full health evaluation, consult a healthcare professional.</p>
+                        <input type="number" placeholder="Height/cm" class="text-quaternary input-1">
+                        <input type="number" placeholder="Weight/kg" class="text-quaternary input-2">
+                        <input type="number" placeholder="Age" class="text-quaternary input-3">
+                        <select name="" id="" class="form-select-options-1">
+                            <option value="" disabled selected hidden>Sex</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                        <select name="" id="" class="form-select-options-2">
+                            <option value="" disabled selected hidden>Select an activity factor</option>
+                            <option value="">Sedentary</option>
+                            <option value="">Lightly active</option>
+                            <option value="">Moderately active</option>
+                            <option value="">Very active</option>
+                            <option value="">Super active</option>
+                        </select>
+                        <input type="submit" value="Calculate" class="btn-primary text-primary">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- this is footer part -->
     <footer>
