@@ -42,7 +42,14 @@
   padding: 8px 20px;
   font-size: 1.125rem;
 }
-
+button:hover{
+  background-color: lightgray;
+    cursor: pointer;
+}
+#calculator-btn:hover{
+  background-color: lightgray;
+    cursor: pointer;
+}
 .navbar,
 .banner {
   max-width: 1440px;

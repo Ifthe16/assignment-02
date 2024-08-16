@@ -38,11 +38,23 @@
                     nutrition tips to help you achieve your goals, whether you're a beginner or an experienced athlete.
                     Join us to start your journey towards a healthier, stronger you!</p>
                 <div class="banner-content-btn-container">
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><button
-                            class="btn-primary text-primary">Join <span class="btn-primary-title">Club</span>
+                    <a href=""><button
+                            class="btn-primary text-primary" onclick="Discount()">Join <span class="btn-primary-title">Club</span>
                             Now!</button></a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><button
-                            class="btn-secondary text-primary">Download App</button></a>
+                            <!-- this is script tag -->
+                            <script>
+                                  function Discount() {
+                                    alert("Code: WINTER69");
+                                }
+                            </script>
+                    <a href=""><button
+                            class="btn-secondary text-primary" onclick="App()">Download App</button></a>
+                             <!-- this is script tag -->
+                            <script>
+                                function App() {
+                                    alert("No app available");
+                                }
+                            </script>
                 </div>
             </div>
             <div class="banner-image-content">
@@ -62,6 +74,10 @@
                 </div>
             </div>
         </div>
+         <!-- this is script tag -->
+        <script>
+            alert("Welcome to our Fitness platform")
+        </script>
     </header>
     <!-- this is main part -->
     <main>
@@ -235,7 +251,7 @@
                             <option value="">Very active</option>
                             <option value="">Super active</option>
                         </select>
-                        <input type="submit" value="Calculate" class="btn-primary text-primary">
+                        <input type="submit" value="Calculate" class="btn-primary text-primary" id="calculator-btn">
                     </form>
                 </div>
             </div>
