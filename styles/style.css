@@ -14,7 +14,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: #000000;
+}
 .display-flex {
   display: flex;
 }
@@ -225,9 +227,9 @@ th, td{
 
 /* main styles */
 main {
+  background-color: #000000;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #000000;
 }
 
 /* habits section related styles*/
